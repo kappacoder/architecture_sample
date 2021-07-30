@@ -12,7 +12,7 @@ namespace FruitsVSJunks.Scripts.Services
 
     /// <summary>
     /// A very simple audio service example that can play specific sounds.
-    /// Instead of using the Unity API, it can also be implement with a 3rd party Audio plugin
+    /// Instead of using the Unity API, it can also be implemented with a 3rd party Audio plugin
     /// </summary>
     public class AudioService : MonoBehaviour
     {

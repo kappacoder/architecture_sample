@@ -74,7 +74,7 @@ namespace FruitsVSJunks.Scripts.UI
                 int savedFruits = gameService.CharactersRX.Count(x => x.FruitType == fruitType);
 
                 HeroRequirementsIconComponent heroRequirementIcon = Instantiate(heroRequirementIconPrefab, heroRequirementsWrapper);
-                heroRequirementIcon.Init(gameService, fruitType, totalFruitsInLevel, savedFruits, false);
+                heroRequirementIcon.Init(fruitType, totalFruitsInLevel, savedFruits, false);
 
                 // Update user progress
                 if (savedFruits > 0)
